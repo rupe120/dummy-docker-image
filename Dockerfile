@@ -1,2 +1,2 @@
-FROM scratch
-ENTRYPOINT ["echo", "Hello, World!"]
+FROM alpine
+ENTRYPOINT ["ls"]
