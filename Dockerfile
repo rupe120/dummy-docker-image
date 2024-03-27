@@ -1,2 +1,3 @@
 FROM alpine
-ENTRYPOINT ["ls"]
+ENTRYPOINT ["echo"]
+CMD ["Hello, World!"]
